@@ -1,0 +1,16 @@
+{
+    "name": "codechunk",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        // "dbaeumer.vscode-eslint",
+        // "rebornix.Ruby"
+    ],
+    "forwardPorts": [
+        3000
+    ],
+    "workspaceFolder": "/codechunk",
+}
